@@ -66,11 +66,11 @@ li {
 
 .btn {
     display: inline-block;
-    background: #089981;
+    background: #333;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 3px;
     margin-top: 10px;
 }
 #about {
@@ -88,7 +88,7 @@ li {
     text-align: center; /* Centers paragraph text */
 }
 .btn:hover {
-    background: orangered;
+    background: #444;
     color: white;
 }
 
