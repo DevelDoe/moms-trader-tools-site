@@ -1,0 +1,96 @@
+/* Minimal Light Theme */
+body {
+    background-color: #ccbca6;
+    color: #333;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#title {
+    display: flex;
+    align-items: center; /* Align icon & text vertically */
+    justify-content: center; /* Center the entire header */
+    gap: 10px; /* Adjust space between icon and text */
+    text-align: center; /* Ensures text remains centered */
+}
+
+header img {
+    width: 32px;
+    height: 32px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+#moms {
+    color: #089981;
+}
+#trader {
+    color: #f23645;
+}
+#tools {
+    color: orangered;
+}
+p {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+section {
+    margin: 40px 0;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #555;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 10px;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
