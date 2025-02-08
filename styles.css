@@ -66,16 +66,30 @@ li {
 
 .btn {
     display: inline-block;
-    background: #333;
+    background: #089981;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
     margin-top: 10px;
 }
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontally centers content */
+    justify-content: center; /* Ensures vertical alignment */
+    text-align: center; /* Keeps text centered */
+    max-width: 600px; /* Optional: Prevents section from being too wide */
+    margin: 0 auto; /* Ensures the entire section is centered */
+}
 
+#about p {
+    max-width: 400px; /* Limits paragraph width */
+    text-align: center; /* Centers paragraph text */
+}
 .btn:hover {
-    background: #555;
+    background: orangered;
+    color: white;
 }
 
 footer {
@@ -87,10 +101,10 @@ footer {
 }
 
 a {
-    color: #333;
+    color: #089981;
     text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: orangered
 }
